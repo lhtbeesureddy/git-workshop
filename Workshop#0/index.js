@@ -4,6 +4,8 @@ let tipAmountElement = document.getElementById("tipAmount");
 let totalAmountElement = document.getElementById("totalAmount");
 let errorMessageElement = document.getElementById("errorMessage");
 
+*code changes to the master branch to form a new branch
+
 function calculateTotalAmount() {
     let billAmount = billAmountElement.value;
     let percentageTip = percentageTipElement.value;
