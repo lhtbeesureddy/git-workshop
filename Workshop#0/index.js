@@ -21,6 +21,7 @@ function calculateTotalAmount() {
         let calculatedTotal = billAmount + calculatedTip;
         tipAmountElement.value = calculatedTip;
         totalAmountElement.value = calculatedTotal;
+        console.log(calculatedTotal);
 
     }
 }
